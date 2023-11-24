@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-r-e-резервуар-e",
+  "editForm": "i-i-s-r-e-резервуар-e",
+  "external": false,
+  "caption": "Резервуар",
+  "name": "IISREРезервуарL",
+  "className": "РезервуарL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-r-e-резервуар",
+      "modelProjection": "РезервуарL"
+    }
+  ]
+}

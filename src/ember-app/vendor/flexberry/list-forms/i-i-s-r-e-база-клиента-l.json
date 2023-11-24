@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-r-e-база-клиента-e",
+  "editForm": "i-i-s-r-e-база-клиента-e",
+  "external": false,
+  "caption": "База клиента",
+  "name": "IISREБазаКлиентаL",
+  "className": "БазаКлиентаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-r-e-база-клиента",
+      "modelProjection": "БазаКлиентаL"
+    }
+  ]
+}

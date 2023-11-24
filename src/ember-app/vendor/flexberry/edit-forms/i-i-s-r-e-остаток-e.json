@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Остаток",
+  "name": "IISREОстатокE",
+  "className": "ОстатокE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-r-e-остаток",
+      "modelProjection": "ОстатокE"
+    }
+  ]
+}

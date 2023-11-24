@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "База клиента",
+  "name": "IISREБазаКлиентаE",
+  "className": "БазаКлиентаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-r-e-база-клиента",
+      "modelProjection": "БазаКлиентаE"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+docker-compose -p re-java up -d

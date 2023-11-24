@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-r-e-автоматизация-e",
+  "editForm": "i-i-s-r-e-автоматизация-e",
+  "external": false,
+  "caption": "Автоматизация",
+  "name": "IISREАвтоматизацияL",
+  "className": "АвтоматизацияL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-r-e-автоматизация",
+      "modelProjection": "АвтоматизацияL"
+    }
+  ]
+}

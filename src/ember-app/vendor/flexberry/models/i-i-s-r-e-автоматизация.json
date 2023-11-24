@@ -1,0 +1,76 @@
+﻿{
+  "name": "IISREАвтоматизация",
+  "modelName": "i-i-s-r-e-автоматизация",
+  "className": "Автоматизация",
+  "nameSpace": "IIS.RE",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номер",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "покупка",
+      "relatedTo": "i-i-s-r-e-покупка",
+      "inverse": "автоматизация"
+    }
+  ],
+  "projections": [
+    {
+      "name": "АвтоматизацияE",
+      "modelName": "i-i-s-r-e-автоматизация",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "ПокупкаE",
+          "caption": "Покупка",
+          "name": "покупка",
+          "relatedTo": "i-i-s-r-e-покупка",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "АвтоматизацияL",
+      "modelName": "i-i-s-r-e-автоматизация",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "ПокупкаL",
+          "caption": "Покупка",
+          "name": "покупка",
+          "relatedTo": "i-i-s-r-e-покупка",
+          "inverse": null
+        }
+      ]
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

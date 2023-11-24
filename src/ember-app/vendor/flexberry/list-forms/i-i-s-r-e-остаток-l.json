@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-r-e-остаток-e",
+  "editForm": "i-i-s-r-e-остаток-e",
+  "external": false,
+  "caption": "Остаток",
+  "name": "IISREОстатокL",
+  "className": "ОстатокL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-r-e-остаток",
+      "modelProjection": "ОстатокL"
+    }
+  ]
+}

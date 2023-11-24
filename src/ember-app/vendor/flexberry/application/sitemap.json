@@ -1,0 +1,50 @@
+﻿{
+  "applicationCaption": "RE",
+  "applicationTitle": "RE",
+  "items": [
+    {
+      "link": null,
+      "menuName": "r-e",
+      "caption": "RE",
+      "title": "RE",
+      "children": [
+        {
+          "link": "i-i-s-r-e-ценновая-стела-l",
+          "menuName": null,
+          "caption": "Ценновая стела",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-r-e-база-клиента-l",
+          "menuName": null,
+          "caption": "База клиента",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-r-e-остаток-l",
+          "menuName": null,
+          "caption": "Остаток",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-r-e-резервуар-l",
+          "menuName": null,
+          "caption": "Резервуар",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-r-e-автоматизация-l",
+          "menuName": null,
+          "caption": "Автоматизация",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

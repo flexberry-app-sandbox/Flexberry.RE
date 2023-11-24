@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-r-e-ценновая-стела-e",
+  "editForm": "i-i-s-r-e-ценновая-стела-e",
+  "external": false,
+  "caption": "Ценновая стела",
+  "name": "IISREЦенноваяСтелаL",
+  "className": "ЦенноваяСтелаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-r-e-ценновая-стела",
+      "modelProjection": "ЦенноваяСтелаL"
+    }
+  ]
+}

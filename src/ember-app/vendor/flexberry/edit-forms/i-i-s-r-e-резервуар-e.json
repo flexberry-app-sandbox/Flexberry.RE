@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Резервуар",
+  "name": "IISREРезервуарE",
+  "className": "РезервуарE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-r-e-резервуар",
+      "modelProjection": "РезервуарE"
+    }
+  ]
+}

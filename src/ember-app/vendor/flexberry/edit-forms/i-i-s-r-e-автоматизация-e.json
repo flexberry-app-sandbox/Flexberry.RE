@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Автоматизация",
+  "name": "IISREАвтоматизацияE",
+  "className": "АвтоматизацияE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-r-e-автоматизация",
+      "modelProjection": "АвтоматизацияE"
+    }
+  ]
+}

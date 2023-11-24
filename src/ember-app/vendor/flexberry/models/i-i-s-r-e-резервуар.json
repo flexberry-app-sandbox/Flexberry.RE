@@ -1,0 +1,104 @@
+﻿{
+  "name": "IISREРезервуар",
+  "modelName": "i-i-s-r-e-резервуар",
+  "className": "Резервуар",
+  "nameSpace": "IIS.RE",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "idР",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "колвоТоп",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "состояние",
+      "type": "i-i-s-r-e-состояния",
+      "flexberryType": "Состояния",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "остаток",
+      "relatedTo": "i-i-s-r-e-остаток",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "РезервуарE",
+      "modelName": "i-i-s-r-e-резервуар",
+      "attrs": [
+        {
+          "name": "колвоТоп",
+          "caption": "Колво топ",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "состояние",
+          "caption": "Состояние",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "idР",
+          "caption": "Id Р",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "РезервуарL",
+      "modelName": "i-i-s-r-e-резервуар",
+      "attrs": [
+        {
+          "name": "колвоТоп",
+          "caption": "Колво топ",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "состояние",
+          "caption": "Состояние",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "idР",
+          "caption": "Id Р",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
